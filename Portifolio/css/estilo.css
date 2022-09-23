@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+:root{
+    --varcor01:#0D6131;
+    --varcor02:#17AD58;
+    --fonte-padrao:font-family: 'DM Sans', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+    
+}
+
+.logo{
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+nav{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fonte-padrao);
+    background-color: black;
+    height: 8vh;
+}
+
+.menu{
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    color: var(--varcor02);
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: var(--fonte-padrao);
+    padding: 148px;
+    
+}
+
+
+
+
